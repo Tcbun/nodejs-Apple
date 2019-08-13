@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  div.example
+    div 
+      p 用户名：
+      input.userName(type="text" name="name" value="")
+    div 
+      p 密码：
+      input.userPassword(type="password" name="password" value="")
+    div 
+      p 邮箱：
+      input.email(type="text" name="email" value="")
+      button.sendCode 发送验证码
+    div
+      p 验证码：
+      input.code(type="text" name="code" value="")
+    div
+      button.submit 提交
+    div
+      p(style={color:"#000"}) *我没有做验证机制，时间有限，假设都是正确的情况
+

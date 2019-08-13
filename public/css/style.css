@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.example {
+  width: 280px;
+  margin: 0 auto;
+}
+.example div {
+  margin-bottom: 18px;
+}
+
+.example div input{
+  margin-right: 18px;
+}
